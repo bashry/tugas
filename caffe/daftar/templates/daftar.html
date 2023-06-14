@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    
+    <H2>daftar menu</H2>
+
+    {% for judul in title %}
+
+    <li>{{ judul }}</li>
+
+    {% endfor %}
+
+    {{pemilik}}
+
+
+{% endblock %}
